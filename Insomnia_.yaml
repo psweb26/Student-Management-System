@@ -1,0 +1,166 @@
+type: collection.insomnia.rest/5.0
+name: SRM
+meta:
+  id: wrk_776c0cf643444227ba5b3b3feb248a29
+  created: 1759946910086
+  modified: 1759946910086
+  description: ""
+collection:
+  - url: https://quarrelsome-jill-proscrape-07d6be8b.koyeb.app/login
+    name: Cookies
+    meta:
+      id: req_ba6a6d9d44f9460b8e30885dea48d5bc
+      created: 1759946997038
+      modified: 1759949138900
+      isPrivate: false
+      description: ""
+      sortKey: -1759947744558
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"account": "dp5787",
+        	"password": "Dipu95211@"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: Host
+        value: quarrelsome-jill-proscrape-07d6be8b.koyeb.app
+      - name: User-Agent
+        value: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101
+          Firefox/143.0
+      - name: Authorization
+        value: Bearer
+          MTc1OTk0NzcwMC42ZGRjM2Y1MmM5YzkyYWE3MDZjYjFhZThhNzk0MjlmNGQ5NjVkNjhhNTlhMmY1YjJlZDMwZGE0ZDU5MGU3NTNkYmZiZGEwZDFjODllMGVjNmVkZDUzYzYwZWU0YTVkMGY5ZDJhMzBjOTc1Yjg0MDIzYWJjNTU3NjFmZTNhNmE4MDk1NTVjNDk3Y2E=
+      - name: Connection
+        value: keep-alive
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: https://academia.srmist.edu.in/srm_university/academia-academic-services/page/My_Attendance
+    name: Attendance, time table and marks
+    meta:
+      id: req_a343df5c78b146e79036cbb78718fbc6
+      created: 1759948492078
+      modified: 1759949316756
+      isPrivate: false
+      description: ""
+      sortKey: -1759948492078
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.1
+      - name: Cookie
+        value: zalb_f0e8db9d3d=983d6a65b2f29022f18db52385bfc639; Path=/; Secure;
+          HttpOnly; wms-tkp-token_client_10002227248=; Max-Age=0; Expires=Thu,
+          01 Jan 1970 00:00:10 GMT; Domain=academia.srmist.edu.in; Path=/;
+          wms-tkp-token_client_10002227248=; Max-Age=0; Expires=Thu, 01 Jan 1970
+          00:00:10 GMT; Domain=srmist.edu.in; Path=/;
+          wms-tkp-token_client_10002227248=; Max-Age=0; Expires=Thu, 01 Jan 1970
+          00:00:10 GMT; Domain=edu.in; Path=/;
+          wms-tkp-token_client_10002227248=; Max-Age=0; Expires=Thu, 01 Jan 1970
+          00:00:10 GMT; Path=/;
+          _iamadt_client_10002227248=86741f94571db1d97797ddbc2fb2b074973b3fdaa322843a33ee607cc290763fec5da74e2347cfc1ce96728545fe4b22;
+          Max-Age=3024000; Expires=Fri, 24-May-2024 13:37:33 GMT; HttpOnly;
+          Domain=academia.srmist.edu.in; Path=/; Secure;
+          SameSite=None;priority=High;
+          _iambdt_client_10002227248=436214c8d6bfdae0e02f320bef75309d7ec338b9fe610e5dffbb6d1aa497fca518d301ba4927b668405f87a56bf5b6d6fbdd2747b2fc4808b7c12e6b94b60d4b;
+          Max-Age=3024000; Expires=Fri, 24-May-2024 13:37:33 GMT; HttpOnly;
+          Domain=academia.srmist.edu.in; Path=/; Secure;
+          SameSite=None;priority=High; _z_identity=true; Max-Age=7200;
+          Expires=Fri, 19-Apr-2024 15:37:33 GMT; Path=/; Secure;
+          SameSite=None;priority=Medium
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_c5e0f36649faf1099ffa6bed444fec46c9510137
+    created: 1759946910116
+    modified: 1759948663946
+  cookies:
+    - key: zalb_f0e8db9d3d
+      value: 983d6a65b2f29022f18db52385bfc639
+      domain: academia.srmist.edu.in
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+      creation: 2025-10-08T18:10:43.081Z
+      lastAccessed: 2025-10-08T18:10:43.081Z
+      id: d850e8f0-887a-4c76-b1fd-14fcaede3d0f
+    - key: JSESSIONID
+      value: E140695B15BB4D18C4E32A7BFA503E52
+      domain: academia.srmist.edu.in
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+      creation: 2025-10-08T18:10:43.083Z
+      lastAccessed: 2025-10-08T18:36:33.694Z
+      id: e533158f-576e-44b7-a743-0dc7f801792d
+    - key: zalb_74c3a1eecc
+      value: 4d9a403de4b8a34758771cf16393da33
+      domain: academia.srmist.edu.in
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+      creation: 2025-10-08T18:36:33.693Z
+      lastAccessed: 2025-10-08T18:36:33.693Z
+      id: 6c9939b5-e222-4168-86d9-3a902c970822
+    - key: zccpn
+      value: dcba43ef77ec4e20a657b46ab1a02e0e1d180893c4d46ee81d6664bb505d33cc8046c431b01d0e36d7489c9f982212ed929e2bd5cbe20d1548a686315b907cef
+      domain: academia.srmist.edu.in
+      path: /
+      secure: true
+      extensions:
+        - priority=high
+      hostOnly: true
+      creation: 2025-10-08T18:36:33.694Z
+      lastAccessed: 2025-10-08T18:37:43.946Z
+      sameSite: none
+      id: 75615c77-a6ec-4eb1-ba9c-6e7e1172176c
+    - key: _zcsr_tmp
+      value: dcba43ef77ec4e20a657b46ab1a02e0e1d180893c4d46ee81d6664bb505d33cc8046c431b01d0e36d7489c9f982212ed929e2bd5cbe20d1548a686315b907cef
+      domain: academia.srmist.edu.in
+      path: /
+      secure: true
+      extensions:
+        - priority=high
+      hostOnly: true
+      creation: 2025-10-08T18:36:33.694Z
+      lastAccessed: 2025-10-08T18:37:43.946Z
+      sameSite: strict
+      id: 27fb3c93-b7df-41ab-b07a-d33b75ad5777
+    - key: cli_rgn
+      value: IN
+      maxAge: 21600
+      domain: academia.srmist.edu.in
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+      creation: 2025-10-08T18:36:33.694Z
+      lastAccessed: 2025-10-08T18:36:33.694Z
+      id: 195003b1-d91e-47a6-92f1-d54e5c4cd72a
+environments:
+  name: Base Environment
+  meta:
+    id: env_c5e0f36649faf1099ffa6bed444fec46c9510137
+    created: 1759946910105
+    modified: 1759946910105
+    isPrivate: false
